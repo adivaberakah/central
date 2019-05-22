@@ -1,0 +1,37 @@
+{
+  "name": "centralauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seed.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "prisma": "prisma"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "apollo-server-express": "^2.5.0-rc.0",
+    "apollo-server-lambda": "^2.5.0",
+    "babel-core": "^6.26.3",
+    "express": "^4.16.4",
+    "graphql": "^14.3.0",
+    "graphql-yoga": "1.17.4",
+    "prisma-client": "0.0.0",
+    "prisma-client-lib": "1.31.1",
+    "serverless-http": "^2.0.1",
+    "serverless-offline": "^4.10.3",
+    "serverless-webpack": "^5.3.0",
+    "webpack": "^4.31.0",
+    "webpack-node-externals": "^1.7.2",
+    "xls-to-json": "^0.5.2",
+    "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "prisma": "1.31.1"
+  }
+}

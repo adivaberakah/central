@@ -1,0 +1,21 @@
+type User {
+  id: ID! @id
+  name: String!
+  email:String!
+  phoneno:String!
+}
+
+type client {
+  id: Int! @id(strategy: SEQUENCE) @sequence(name: "client_id_seq", initialValue: 1, allocationSize: 1) @unique
+  name: String!
+  applicationUrl:String!
+  clientName:String!
+   clientId:String!
+}
+
+type Audit{
+  id: Int! @unique @id
+  name: String
+  predicateObject: String!
+  Date: DateTime! @createdAt
+}
