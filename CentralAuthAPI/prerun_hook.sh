@@ -4,7 +4,7 @@ set -e
 
 printf "
 port: ${PORT}
-# managementApiSecret: ${MGMT_SECRET}
+
 databases:
   default:
     connector: postgres
