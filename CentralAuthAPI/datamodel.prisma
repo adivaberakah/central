@@ -7,10 +7,13 @@ type User {
 
 type client {
   id: Int! @id(strategy: SEQUENCE) @sequence(name: "client_id_seq", initialValue: 1, allocationSize: 1) @unique
-  name: String!
   applicationUrl:String!
-  clientName:String!
    clientId:String!
+   applicationName : String!
+   applicationDesc : String!
+   applicationFeatures : String!
+   appUiImageUrl : String!
+   appLogoImageUrl : String!
 }
 
 type Audit{
