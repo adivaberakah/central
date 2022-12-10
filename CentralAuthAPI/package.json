@@ -17,7 +17,7 @@
     "apollo-server-express": "^2.5.0-rc.0",
     "apollo-server-lambda": "^2.5.0",
     "babel-core": "^6.26.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "graphql": "^14.3.0",
     "graphql-yoga": "1.17.4",
     "prisma-client": "0.0.0",
